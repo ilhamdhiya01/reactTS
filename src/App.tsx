@@ -1,4 +1,4 @@
-import Todo from './components/Todo';
+import TodoPage from './todo/TodoPage';
 
 function App() {
   // const [form, setForm] = useState({
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='App flex justify-center items-center antialiased min-h-screen'>
       <div className='max-w-md w-full'>
-        <Todo />
+        <TodoPage />
         {/* <form onSubmit={submit}>
           <Card>
             <Card.Title>Form register</Card.Title>
